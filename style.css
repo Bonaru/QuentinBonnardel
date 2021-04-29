@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Dancing+Script&display=swap');
+
+
+html { 
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+body{
+    font-family: 'Advent Pro', sens-serif;
+    padding: 0;
+    margin: 0;
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        
+
+    }
+    li{
+        list-style-type: none;
+    }
+    h2{
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 30px;
+        font-size: 2em;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+/***Ci dessus : la vitesse à laquel le scroll redirige vers différent élement de la page, la police utilisé pour ce projet, 
+les marges et leurs caractéristiques, un titre avec la taille de sa police, sont aliignement (centré), des listes et la couleur des liens, ici noir.
+
+    /* ************** NAVBAR ******************** */
+    nav {
+        overflow: hidden;
+        background-color: hsl(60, 33%, 81%);
+        position: fixed;
+        width: 100%;
+        opacity: 0.9;
+    }
+    header li {
+        float: right;
+        font-size: 1.2em;
+    }
+
+    header li {
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        padding: 18px 16px ;   
+    }
+#logo{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    float: left;
+}
+/***Ci dessus : la navbar fixe, avec une opacité de 0.9, sa hauteur, sa couleur, à gauche la liste de liens qu'elle contient, leur position, et à droite
+le logo de la page avec sa police en gras.
+
+/* *************************IMAGE PRINCIPALE************** */
+#imagePrincipale {
+    padding-top: 60px;
+    background: url(media/image-principale.JPG) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 6em;
+    margin-top: 110px; 
+    text-shadow: 1px 3px 2px black;
+}
+#premierTrait{
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: antiquewhite;
+    box-shadow: 1px 3px 2px black;
+}
+h3{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 3em;
+    text-shadow: 1px 3px 2px black;
+
+}
+h4{
+    color: antiquewhite;
+    font-size: 2em;
+    text-shadow: 1px 3px 2px black;
+    margin-top: 50%px;
+    text-align: center;
+}
+
+h6{
+    color: black;
+    font-size: 2em;
+    margin-top: 50%px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+/***Ci dessus : le corps de la page, l'image de fond utilisé qui reste fixe, sa position et sa hauteur, 
+les titre de la page leur couleur, taille de police, leur hauteur ainsi qu'une ombre noire 
+un trait servant de démarcation également avec sa hauteur, largeur, de la couleur antiquewhite, la aussi j'ai ajouté une ombre
+les différents titre H3, H4, et H6 avec également leur position sur la page, leur couleur, ils ont aussi une ombre sauf pour le H6
+
+
+/* ********************PRESENTATION***************** */
+#presentation{
+    background-color: #dee9ebbb;
+    padding: 10px 0px 100px 0;
+}
+
+#texteIntro{
+    padding: 0px 25%;
+}
+
+p{
+    text-align: center;
+}
+
+.box {
+    text-align: center;
+}
+
+#exp {
+    font-size: 2em;
+}
+
+
+
+/***Ci dessus : la partie "mon parcours" avec la couleur de fond, la caractéristique du paragraphe, centré.
+
+/* ***********************INFO********************* */
+#tourisme{
+    height: 500px;
+    background-color: white;
+    padding: 1px 2% ;
+}
+
+/***Ci dessus : la couleur de fond de la partie "mon éxperience" et sa position.
+
+/* *********************************FOOTER************* */
+footer{
+    background-color: #81B1B6;
+    color: #fffae19d;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+form{
+    margin: 0 auto;
+    max-width: 900px;
+    
+}
+input, textarea, button {
+    border: none;
+    width :55%;
+    padding: 15px 10 px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Advent Pro', sans-serif;
+    border-radius: 8px;
+}
+textarea{
+    height: 120px;
+}
+button{
+    font-size: 1,em;
+    background-color: antiquewhite;
+    
+}
+button:hover{
+    background-color: brown;
+    color: burlywood;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#deuxiemeTrait{
+    height: 1px;
+    width: 75%;
+    background-color: antiquewhite;
+    margin: 60px auto;
+    }
+
+    #copyrightETIcons{
+        display: flex;
+        margin-bottom: 20px;
+        padding: 0 10%
+    }
+    #copyright{
+        width: 50%;
+        text-align: left;
+        color: antiquewhite;
+    }
+    #icons{
+        width: 50%;
+        text-align: right;
+    }
+    #icons a{
+        display: inline-block;
+        padding: 0 15 px;
+        font-size: 1.3em;
+        color: antiquewhite;
+    }
+    #icons a:hover{
+        transform: scale(1.5);
+        transition: 0.1s;
+    }
+
+/***Ci dessus : la couleur de fond du footer, sa largeur maximal, la position de la boite contact, les espacement entre les formulaires, leur polices,
+tailles, l'arondissement des angles de la boite, le boutton "send" est aussi censé changer de couleur lorsque l'on passe dessus, la transition de couleur
+et des 0.3s, les différents icons sont aligné à droite  et changent aussi de taille lorsque l'on passe au dessus grâce a "icons a :hover".
+
+
+
+
+
+
+
